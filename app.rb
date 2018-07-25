@@ -6,6 +6,10 @@ class App < Sinatra::Base
    "My name is Danielle"
   end
 
+  get '/hometown' do
+    "My hometown is Brooklyn"
+
+   erb :'medicines/index.html.erb'
 
 
 end
