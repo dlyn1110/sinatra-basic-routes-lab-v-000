@@ -8,8 +8,11 @@ class App < Sinatra::Base
 
   get '/hometown' do
     "My hometown is Brooklyn"
+  end
 
-   erb :'medicines/index.html.erb'
+  get '/favorite-song' do
+    "Summertime"
+  end
 
 
 end
